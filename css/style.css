@@ -14,9 +14,9 @@
 
 .content-section__overlay {
     background-color: #F7F9FA;
+    width: 100%;
   }
 .header {
-
     display: flex;
     flex: 0.9;
     align-items: center;
@@ -131,4 +131,88 @@
     font-weight: 400;
     line-height: 37.5px;
     letter-spacing: 0.2px;
+    margin-bottom: 28px;
+}
+
+.company {
+    display: flex;
+    justify-content: center;
+    gap:60px;
+    margin-left: 25px;
+}
+
+.list-company {
+    max-width: 159px;
+    margin-bottom: 161px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+
+.card {
+    width: 355px;
+    height: 250px;
+    gap: 33px;
+}
+
+.img-card {
+    max-width: 55px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 5px;
+}
+
+.subtitle-card {
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+    margin-left: 32px;
+    margin-bottom: 13px;
+}
+
+.text-in-card {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    max-width: 287px;
+    margin-left: 32px;
+}
+
+.yellow {
+    background-color:#FAEA73;
+}
+
+.blue {
+    background-color: #CCEFF6;
+}
+
+.pink {
+    background-color: #F7CEDC;
+}
+.subtitle-overlay {
+    padding-left: 155px;
+    padding-top: 79px;
+}
+.optional-subtitle {
+    font-family: Fraunces;
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    max-width: 650px;
+}
+.optional-subtitle-second {
+    font-family: Fraunces;
+    font-size: 39px;
+    font-weight: 400;
+    line-height: 50.4px;
+    letter-spacing: 0.5px;
 }
